@@ -29,13 +29,6 @@
         document.location.href = emailCorpo;
     });
 
-
-    $('.back-to-top').click(function () {
-        $('html, body').animate({scrollTop: 0}, 0, 'easeInOutExpo');
-        return false;
-    });
-
-
     // Team carousel
     $(".team-carousel").owlCarousel({
         autoplay: true,
